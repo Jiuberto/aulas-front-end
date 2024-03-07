@@ -24,8 +24,16 @@
 
  ### Formação de implementação
 
+
+
  #### Inline
+
+ O CSS é aplicado diretamente a cada tag do HTML
 
 #### Interna/OnPage
 
+O CSS é criado usando regras (com seletores, propriedades, valores) dentro da própria página que queremos formatar.
+
 #### Externa
+
+É criado um arquivo de extensão CSS dedicado as regras de formatação. Este arquivo é então "conectado" as áginas HTML.
