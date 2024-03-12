@@ -12,8 +12,29 @@ div {
     background-color: aliceblue;
     width: 70%;
     margin: auto;
+    border-radius: 8px;/*arredeondamento*/
+    padding: 16px; /*espaçamento interno*/
+    box-shadow: black 10px 10px 20px, green -20px -30px 50px;/*sombra*/
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%;/*melhor que o width*/
+}
+
+figure{
+    text-align: center; /*centralisar*/
+}
+
+h1 {
+    font-family: impact,verdana, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;/*espaçamento dentro do funddo*/
+    background-color: rgba(0, 0, 0, 0.63);
+    margin: auto;/*espaçamento fora do fundo*/
+    border-radius: 10px;
+    text-shadow: black 15px 15px 20px;
+    text-transform: uppercase;/*letras maiusculas*/
+
+    
 }
