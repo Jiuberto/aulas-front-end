@@ -34,11 +34,13 @@
 
 O CSS é criado usando regras (com seletores, propriedades, valores) dentro da própria página que queremos formatar.
 
+As regras vão valer para todos
+
 #### Como fazer uma regra CSS?
 
 seletor {propriedade: valor; }
 
-#### Externa
+#### Externa (mais usada)
 
 É criado um arquivo de extensão CSS dedicado as regras de formatação. Este arquivo é então "conectado" as áginas HTML.
 
