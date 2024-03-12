@@ -1,0 +1,9 @@
+/*regras de formatação*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*fonte*/
+    background-image: url(../imagens/tarde.jpg);/*imagem de fundo*/
+    background-attachment: fixed;/*fundo fixo*/
+    background-size: cover; /*tamanho*/
+    
+}
