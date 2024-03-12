@@ -7,3 +7,13 @@ body{
     background-size: cover; /*tamanho*/
     
 }
+
+div {
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
