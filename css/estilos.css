@@ -51,6 +51,13 @@ h1 {
     text-shadow: black 15px 15px 20px;
     text-transform: uppercase;
     /*letras maiusculas*/
+    letter-spacing: 5px; /*espaço entre letras*/
+    font-weight: normal; /*coloca e tira negrito*/
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+
+    /*-webkit-=chrome, -moz-=firefox, -o-=opera*/
 
 }
 
