@@ -71,3 +71,23 @@ h2 {
     padding-left: 30px;
     /* margin-left: 30px */
 }
+
+a {
+    text-decoration: none;/*mudança geral */ 
+}
+
+
+/*seletor descendente*/
+nav a{ color: red;}/*mudança especifica*/
+
+figure img{
+    transform: scale(0.8);
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+/*houver: ação ao passar o mause*/
+figure img:hover{
+    transform: scale(1) rotatex(360deg);
+    filter: grayscale(0);
+}
