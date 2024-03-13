@@ -1,5 +1,7 @@
 /*regras de formatação*/
 
+* {box-sizing: border-box;} /*Seletor Universal Alternando o comportamento do Box Model CSS. Usando esta regra evitamos os problemas encontrados ao se usar width, height, padding e border ao mesmo tempo.*/
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*fonte*/
@@ -78,8 +80,7 @@ a {
 }
 
 
-/*seletor descendente*/
-nav a{ color: red;}/*mudança especifica*/
+
 
 figure img{
     transform: scale(0.8);
@@ -117,4 +118,40 @@ p, li {
     padding: 8px;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+
+/**Regars de menu e link**/
+
+nav{
+    text-align: center;
+}
+
+/*seletor descendente*/
+nav a{ 
+    color: red;
+    font-weight: bold;
+    background-color: aqua;
+    display: inline-block;/*tranforma em inline e block*/
+    width: 50%;
+    padding: 1%;
+    /*  transition: 2s; aplica o efeito na saida e na volta*/
+   
+
+
+    /* padding-block: 5%; espaço de dentro do fundo */
+
+    border: solid 1px;
+
+    /*alternativa antiga ao padding-block
+    box-sizing: border-box; */
+}/*mudança especifica*/
+
+/*Regras para o estado de acontecimento dos links*/
+
+
+nav a:hover {
+    background-color: blue;
+    transition: 1s;
+    
 }
