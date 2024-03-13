@@ -12,7 +12,8 @@ body {
 
 }
 
-div {
+/*seletor identificado*/
+#container {
     background-color: aliceblue;
     width: 70%;
     margin: auto;
@@ -108,5 +109,11 @@ p, li {
     background-color: black;
     color: white;
     padding: 3px;
+    border-radius: 4px;
+}
+
+.destaque-back {
+    background-color: yellow;
+    padding: 8px;
     border-radius: 4px;
 }
