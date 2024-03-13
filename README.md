@@ -38,8 +38,9 @@ As regras vão valer para todos
 
 #### Como fazer uma regra CSS?
 
+```css
 seletor {propriedade: valor; }
-
+```
 #### Externa (mais usada)
 
 É criado um arquivo de extensão CSS dedicado as regras de formatação. Este arquivo é então "conectado" as páginas HTML.
