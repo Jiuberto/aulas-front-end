@@ -46,7 +46,7 @@ h1 {
     /*espaçamento dentro do funddo*/
 
     background-color: rgba(0, 0, 0, 0.63);
-    margin: auto;
+    margin: 0;
     /*espaçamento fora do fundo*/
     border-top-left-radius: 10px;/*arredondamento superior esquerdo*/
     border-top-right-radius: 10px;/*arredondamento superior direito*/
@@ -150,8 +150,17 @@ nav a{
 /*Regras para o estado de acontecimento dos links*/
 
 
-nav a:hover {
+nav a:hover, nav a:focus  {
     background-color: blue;
     transition: 1s;
     
+}
+
+nav a:first-child{
+    border-bottom-left-radius: 8px;
+
+}
+
+nav a:last-child{
+    border-bottom-right-radius: 8px;
 }
