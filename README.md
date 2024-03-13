@@ -40,6 +40,12 @@ As regras vão valer para todos
 
 ```css
 seletor {propriedade: valor; }
+
+seletor {
+    propriedades1: valor;
+    propriedades2: valor;
+    propriedadesN: valor;
+}
 ```
 #### Externa (mais usada)
 
