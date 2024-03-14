@@ -164,3 +164,35 @@ nav a:first-child{
 nav a:last-child{
     border-bottom-right-radius: 8px;
 }
+
+
+
+/*lista*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li{
+    color: cadetblue;
+    list-style-type: square;
+}
+
+ul li::marker{
+    content: "✨";/*"windows" + "."*/
+    color: bisque;
+    font-size: 24px;
+    font-weight: 32px;
+}
+
+/*alteração especifica em algum item da lista*/
+ul li:first-child{font-weight: bold;}/*primeiro item da lista*/
+ul li:last-child{font-style: italic;}/*ultimo item da lista*/
+ul li:nth-child(3){color: aqua;}/*qualquer item da lista*/
+
+
+
+/* cores alternadas */
+ul li:nth-child(even) {background-color: red;}
+ul li:nth-child(odd) {background-color: blue;}
