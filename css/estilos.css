@@ -196,3 +196,20 @@ ul li:nth-child(3){color: aqua;}/*qualquer item da lista*/
 /* cores alternadas */
 ul li:nth-child(even) {background-color: red;}
 ul li:nth-child(odd) {background-color: blue;}
+
+details {
+    border: solid 2px;
+    padding: 8px;
+}
+
+summary{
+    font-size: bold;
+}
+
+summary::marker{content: "👉";}
+  
+  /* seletor de atributo */
+
+  details[open] summary::marker {
+    content: "👇";
+  }
