@@ -7,21 +7,25 @@
     <title>Document</title>
     <style>
         /* etapa 1:regras de uso gral para telas pequenas e grnades */
-        *{box-sizing: border-box;}
+        * {
+            box-sizing: border-box;
+        }
 
-        body{
+        body {
             font-family: Verdana;
             background-color: lightblue;
         }
 
-        .exemplo{
+        .exemplo {
             background-color: white;
             padding: 4px;
             border-radius: 4px;
         }
 
-        h1 {color: darkblue;
-        font-size: 24px;}
+        h1 {
+            color: darkblue;
+            font-size: 24px;
+        }
 
         hr {
             border: none;
@@ -29,10 +33,54 @@
             background-color: darkblue;
         }
 
-        h2 {font-size: 20px;}
+        h2 {
+            font-size: 20px;
+        }
 
         /* etapa 2:estilos que vão ser aplicados de acordo com determinadas condições (tamanho de tela)*/
 
+        /* Media Queries (alterar layout para outra midia)(consultas de midia) e Breakpoints (pontos de adaptação) */
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: yellow;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+
+        /* exercicio 
+        Faça uma regra condicional para telas com tamanho maior ou igual a 777px em que as seguintes adaptações aconteçam:
+        - A div exemplo deve ter largura de 75% e ficar no meio
+        - Os negritos devem ter outra cor
+        - Os tamanhos dos paragrAafos deve subir para 18px
+        - Cor de fundo da pagina deve voltar a cor original*/
+
+        @media screen and (min-width: 777px) {
+            .exemplo {
+                width: 75%;
+                margin: auto;
+            }
+
+            b {
+                background-color: black; color: white;
+            }
+
+            h1,
+            h2 {
+                color: aqua;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            body {
+                background-color: lightblue;
+            }
+        }
     </style>
 </head>
 
@@ -45,10 +93,12 @@
             eligendi?</p>
 
         <h2>mobile first (é o mais usado)</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos ajustes para telas menores.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos
+            ajustes para telas menores.</p>
 
         <h2>Desktop first</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos ajustes para telas menores.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos
+            ajustes para telas menores.</p>
     </div>
 </body>
 
