@@ -1,32 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* 1)regras de uso geral */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* 2) Regras de uso condicional
+(Com Media Queres) */
+
+        body {
+            font-family: Verdana;
+            background-color: lightblue;
+        }
+
+        .conteiner {
+            background-color: white;
+            padding: 5px;
+            box-shadow: black 0 0 5px;
+        }
+
+        /* regras de css
+é comun resetar valores de alguns elementos/propriedades visando evita inconsistencias nos resultados. */
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        p,
+        h2 {
+            padding: 4px;
+        }
+
+        .topo {
+            padding: 4px;
+            background-color: rgb(43, 226, 119);
+        }
+
+        h1 {
+            background-color: tomato;
+        }
+
+        .menu {
+            background-color: rgb(216, 253, 5);
+        }
+
+        .conteudo {}
+
+        .um,
+        .dois,
+        .tres {
+            border: solid 1px black;
+        }
+
+        .um {
+            background-color: orange;
+        }
+
+        .dois {
+            background-color: rgb(35, 211, 218);
+        }
+
+        .tres {
+            background-color: rgb(59, 71, 228);
+        }
+
+        .rodape {
+            background-color: blueviolet;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
-       <header class="topo">
+        <header class="topo">
 
-        <h1>Site Exemplo</h1>
-        <nav class="menu">
-            <a href="">Link</a>
-            <a href="">Link</a>
-            <a href="">Link</a>
-        </nav>
-       </header>
+            <h1>Site Exemplo</h1>
+            <nav class="menu">
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
+            </nav>
+        </header>
         <main class="conteudo">
             <article class="um">
                 <h2>Um</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p></article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae
+                    molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p>
+            </article>
             <article class="dois">
                 <h2>dois</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae
+                    molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p>
             </article>
             <article class="tres">
                 <h2>tres</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid distinctio tenetur molestiae
+                    molestias nostrum optio laboriosam accusantium. Harum, reprehenderit maxime.</p>
             </article>
         </main>
         <footer class="rodape">
@@ -35,4 +113,5 @@
         </footer>
     </div>
 </body>
+
 </html>
