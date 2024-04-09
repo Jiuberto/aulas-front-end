@@ -1,9 +1,230 @@
 * {box-sizing: border-box;} 
 
 body{
-    align-items: center;
+    align-items: center; 
+    color: white;
 }
 
 h1,h2,h3, h4 {
     text-align: center;
 }
+
+main {
+
+    margin: 0;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border-radius:%;
+}
+
+h1 {background-color: red;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*fonte*/
+margin: auto;
+
+}
+
+/*seletor identificado*/
+#container {
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    /*arredeondamento*/
+    padding: 16px;
+    /*espaçamento interno*/
+    box-shadow: black 10px 10px 20px, green -20px -30px 50px;
+    /*sombra*/
+}
+
+img {
+    max-width: 100%;
+    /*melhor que o width*/
+}
+
+figure {
+    text-align: center;
+    /*centralisar texto*/
+}
+
+h1 {
+    font-family: impact, verdana, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 70px;/*espaçamento cima*/
+    padding-bottom: 70px;/*espaçamento baixo*/
+    /*espaçamento dentro do funddo*/
+
+    background-color:;
+    margin: 0;
+    /*espaçamento fora do fundo*/
+    border-top-left-radius: 10px;/*arredondamento superior esquerdo*/
+    border-top-right-radius: 10px;/*arredondamento superior direito*/
+    /* aternativa border-radius: 10px 10px 0px 0px*/
+    text-shadow: black 15px 15px 20px;
+    text-transform: uppercase;
+    /*letras maiusculas*/
+    letter-spacing: 5px; /*espaço entre letras*/
+    font-weight: normal; /*coloca e tira negrito*/
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+
+    /*-webkit-=chrome, -moz-=firefox, -o-=opera*/
+
+}
+
+h2, h3 {
+    font-size: 20px;
+    border-bottom-style: solid ;
+    padding: auto;
+    background-color: red;
+    /* margin-left: 30px */
+}
+
+a {
+    text-decoration: none;/*mudança geral */ 
+}
+
+
+
+
+figure img{
+    transform: scale(0.8);
+    transition: 1s;
+    filter: grayscale(100%);
+}
+
+/*houver: ação ao passar o mause*/
+figure img:hover{
+    transform: scale(1) rotatex(360deg);
+    filter: grayscale(0);
+}
+
+
+/*seletor agrupado*/
+p, li {
+    font-size: 18px;
+}
+
+/*li {font-size: 18px;}*/
+
+
+/*seletor classes*/
+.cent{ text-align: center;}
+.sombra{ text-shadow: green 1px 1px 3px;}
+.destaque{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.destaque-back {
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+
+/**Regars de menu e link**/
+
+
+
+
+    /* padding-block: 5%; espaço de dentro do fundo */
+*mudança especifica*/
+
+/*Regras para o estado de acontecimento dos links*/
+
+
+nav a:hover, nav a:focus  {
+    background-color: blue;
+    transition: 1s;
+    
+}
+
+nav a:first-child{
+    border-bottom-left-radius: 8px;
+
+}
+
+nav a:last-child{
+    border-bottom-right-radius: 8px;
+}
+
+
+
+/*lista*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li{
+    color: rgb(255, 255, 255);
+    list-style-type: square;
+}
+
+ul li::marker{
+    content: "";/*"windows" + "."*/
+    color: bisque;
+    font-size: 24px;
+    font-weight: 32px;
+}
+
+/*alteração especifica em algum item da lista*/
+/*ultimo item da lista*/
+/*qualquer item da lista*/
+
+
+
+/* cores alternadas */
+/*ul li:nth-child(even) {background-color: red;}
+ul li:nth-child(odd) {background-color: blue;}*/
+
+details {
+    border: solid 2px;
+    padding: 8px;
+}
+
+summary{
+    font-size: bold;
+}
+
+summary::marker{content: "👉";}
+  
+  /* seletor de atributo */
+
+  details[open] summary::marker {
+    content: "👇";
+  }
+  footer{
+    color: red;
+    background-color: red;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    container: ;
+  }
+
+  html {
+    background-image: url(../imagens/front-end.jpg);
+  }
+
+  p, ul{
+    background-color: rgb(133, 133, 133);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
