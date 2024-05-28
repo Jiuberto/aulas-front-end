@@ -15,7 +15,7 @@ main {
     margin-top: 0%;
     padding-bottom: 0%;
     padding-top: 0%;
-    border-radius:%;
+    border-radius:4px;
 }
 
 h1 {background-color: red;
@@ -62,7 +62,7 @@ h1 {
     padding-bottom: 70px;/*espaçamento baixo*/
     /*espaçamento dentro do funddo*/
 
-    background-color:;
+    background-color:red;
     margin: 0;
     /*espaçamento fora do fundo*/
     border-top-left-radius: 10px;/*arredondamento superior esquerdo*/
